@@ -1,5 +1,7 @@
 import React from 'react';
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import Brands from '../Brands/Brands';
+import Motive from '../Motive/Motive';
+import Services from '../Services/Services';
 import Banner from '../shared/Banner/Banner';
 
 const Homepage = () => {
@@ -7,17 +9,11 @@ const Homepage = () => {
         <div>
             <Banner></Banner>
             <br />
-            <Container className='bg-light'>
-                <Row xs={1} md={2} lg={2}>
-                    <Col className='p-5'>
-                        <h1 className='text-center fw-light' style={{ fontSize: "55px", fontFamily: "revert" }}>Wholesale. Quality. Reliability.</h1>
-                    </Col>
-                    <Col>
-                        <p className='fs-5 fw-light text-center p-5'> Frozen food processing and delivering around the globe ensuring high quality so you can dine or takeaway. <br /> <Button className='mt-3' variant='outline-dark'>Learn More</Button> </p>
-
-                    </Col>
-                </Row>
-            </Container>
+            <Motive></Motive>
+            <br />
+            <Services></Services>
+            <br />
+            <Brands></Brands>
             <br />
         </div>
     );
