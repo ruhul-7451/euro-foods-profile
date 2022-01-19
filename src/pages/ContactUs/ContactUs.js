@@ -1,13 +1,17 @@
+import { faFacebookSquare, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Button, Col, Container, Form, Row } from 'react-bootstrap';
+const facebookLogo = <FontAwesomeIcon icon={faFacebookSquare} />
+const LinkedInLogo = <FontAwesomeIcon icon={faLinkedinIn} />
 
 const ContactUs = () => {
     return (
         <Container>
             <Row xs={1} lg={2}>
                 <Col className='p-5 rounded' style={{ backgroundColor: "#EDF6FF" }}>
-                    <h2 className='fs-3 fw-normal text-center'>Wholesale. Quality. Reliability</h2> <hr className='bg-secondary' />
-                    <p className='text-center'>Get in touch with us today!</p>
+                    <h2 className='fs-3 fw-normal text-center'>Wholesale. Quality. Reliability.</h2>
+                    <p className='text-center'>Get in touch with us, today.</p>
                     <Form className='mx-auto w-75'>
                         <Row xs={1} lg={2}>
                             <Form.Group as={Col} className='mb-3' >
@@ -36,7 +40,7 @@ const ContactUs = () => {
                             <Form.Control as="textarea" rows={3} placeholder='Type your message here' />
                         </Form.Group>
 
-                        <Button variant="outline-primary" type="submit">
+                        <Button variant="outline-dark" type="submit">
                             Send Message
                         </Button>
                     </Form>
@@ -45,6 +49,7 @@ const ContactUs = () => {
                     <h6 className='fs-5 fw-light text-secondary'>
                         <a className='text-decoration-none' href="mailto:contact@eurofoods-bd.com">contact@eurofoods-bd.com</a>
                     </h6>
+                    <hr />
                     <section>
                         <h6 className='fs-4'>Head Office | Main</h6>
                         <p>EFG Food and Technology Park Llantarnam Park Way, Cwmbran<br />NP44 3GA | +8801710112233</p>
@@ -56,6 +61,12 @@ const ContactUs = () => {
                     <section>
                         <h6 className='fs-4'>London | Branch</h6>
                         <p>Unit 10, IOG Centre, 59-71 River Road, Barking <br />IG11 0DR | +8801710112233</p>
+                    </section>
+                    <section>
+                        <p>
+                            <a className='fs-3 text-dark me-2 text-decoration-none' href="https://www.linkedin.com"> {LinkedInLogo} </a>
+                            <a className='fs-3 text-dark me-2 text-decoration-none' href="https://www.facebook.com"> {facebookLogo} </a>
+                        </p>
                     </section>
                 </Col>
             </Row>
