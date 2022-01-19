@@ -5,9 +5,9 @@ const ContactUs = () => {
     return (
         <Container>
             <Row xs={1} lg={2}>
-                <Col className='p-5'>
-                    <h2 className='fs-3 fw-normal text-success text-center'>Wholesale. Quality. Reliability</h2>
-                    <p className='text-danger text-center'>Get in touch with us today!</p>
+                <Col className='p-5 rounded' style={{ backgroundColor: "#EDF6FF" }}>
+                    <h2 className='fs-3 fw-normal text-center'>Wholesale. Quality. Reliability</h2> <hr className='bg-secondary' />
+                    <p className='text-center'>Get in touch with us today!</p>
                     <Form className='mx-auto w-75'>
                         <Row xs={1} lg={2}>
                             <Form.Group as={Col} className='mb-3' >
@@ -36,13 +36,15 @@ const ContactUs = () => {
                             <Form.Control as="textarea" rows={3} placeholder='Type your message here' />
                         </Form.Group>
 
-                        <Button variant="primary" type="submit">
-                            Submit
+                        <Button variant="outline-primary" type="submit">
+                            Send Message
                         </Button>
                     </Form>
                 </Col>
-                <Col className='fw-light p-5'>
-                    <h6 className='fs-5 fw-light text-secondary'><a className='text-decoration-none' href="mailto:contact@eurofoods-bd.com">contact@eurofoods-bd.com</a></h6>
+                <Col className='fw-light p-5' style={{ backgroundColor: "#EDF6FF" }}>
+                    <h6 className='fs-5 fw-light text-secondary'>
+                        <a className='text-decoration-none' href="mailto:contact@eurofoods-bd.com">contact@eurofoods-bd.com</a>
+                    </h6>
                     <section>
                         <h6 className='fs-4'>Head Office | Main</h6>
                         <p>EFG Food and Technology Park Llantarnam Park Way, Cwmbran<br />NP44 3GA | +8801710112233</p>

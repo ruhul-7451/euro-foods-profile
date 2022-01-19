@@ -1,6 +1,9 @@
+import { faShoppingBasket } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Carousel, Container } from 'react-bootstrap';
+import { Button, Carousel, Container } from 'react-bootstrap';
 
+const shopNow = <FontAwesomeIcon icon={faShoppingBasket} />
 const Banner = () => {
     return (
         <Container>
@@ -11,9 +14,9 @@ const Banner = () => {
                         src="https://i.ibb.co/dfKsHxb/EFG-Banner-1.jpg"
                         alt="First slide"
                     />
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <Carousel.Caption className='d-flex justify-content-end align-items-center'>
+                        <Button variant='outline-danger' className='me-3 shadow text-light'>Order Now {shopNow} </Button>
+                        <Button variant='outline-warning' className='me-3 shadow text-light'>Learn More!</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -23,9 +26,9 @@ const Banner = () => {
                         alt="Second slide"
                     />
 
-                    <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <Carousel.Caption className='d-flex justify-content-end align-items-center'>
+                        <Button variant='danger' className='ms-3 shadow'>Masala Bazar</Button>
+                        <Button variant='warning' className='ms-3 shadow'>Kukd.com</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -35,9 +38,9 @@ const Banner = () => {
                         alt="Third slide"
                     />
 
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <Carousel.Caption className='d-flex justify-content-end align-items-center'>
+                        <Button variant='outline-light' className='me-3 shadow'>Contact Us</Button>
+                        <Button variant='outline-light' className='me-3 shadow'>Supply Us</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
