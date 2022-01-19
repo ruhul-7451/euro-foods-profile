@@ -10,8 +10,7 @@ const ContactUs = () => {
         <Container>
             <Row xs={1} lg={2}>
                 <Col className='p-5 rounded' style={{ backgroundColor: "#EDF6FF" }}>
-                    <h2 className='fs-3 fw-normal text-center'>Wholesale. Quality. Reliability.</h2>
-                    <p className='text-center'>Get in touch with us, today.</p>
+                    <h2 className='fs-3 fw-normal text-center'>Wholesale. Quality. Reliability.</h2> <hr />
                     <Form className='mx-auto w-75'>
                         <Row xs={1} lg={2}>
                             <Form.Group as={Col} className='mb-3' >
@@ -39,14 +38,14 @@ const ContactUs = () => {
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                             <Form.Control as="textarea" rows={3} placeholder='Type your message here' />
                         </Form.Group>
-
                         <Button variant="outline-dark" type="submit">
                             Send Message
                         </Button>
+
                     </Form>
                 </Col>
                 <Col className='fw-light p-5' style={{ backgroundColor: "#EDF6FF" }}>
-                    <h6 className='fs-5 fw-light text-secondary'>
+                    <h6 className='fs-3 fw-light text-secondary'>
                         <a className='text-decoration-none' href="mailto:contact@eurofoods-bd.com">contact@eurofoods-bd.com</a>
                     </h6>
                     <hr />
