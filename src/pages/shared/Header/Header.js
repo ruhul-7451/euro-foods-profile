@@ -12,7 +12,7 @@ const Header = () => {
                         <Nav className="ms-auto fs-5">
                             <Nav.Link href="#features">What We do</Nav.Link>
                             <Nav.Link href="#pricing">Our Products</Nav.Link>
-                            <Nav.Link href="#pricing">Why Us?</Nav.Link>
+                            <Nav.Link href="#WhyUs">Why Us?</Nav.Link>
                             <NavDropdown title="About Us" id="collasible-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Supply Us</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">Contact Us</NavDropdown.Item>

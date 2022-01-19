@@ -8,7 +8,7 @@ import { faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 const facebookLogo = <FontAwesomeIcon icon={faFacebookSquare} />
 const LinkedInLogo = <FontAwesomeIcon icon={faLinkedinIn} />
-const twitterlogo = <FontAwesomeIcon icon={faTwitterSquare} />
+const twitterLogo = <FontAwesomeIcon icon={faTwitterSquare} />
 const mapMarker = <FontAwesomeIcon icon={faMapMarkerAlt} />
 const envelop = <FontAwesomeIcon icon={faEnvelope} />
 const telephone = <FontAwesomeIcon icon={faPhoneAlt} />
@@ -22,7 +22,7 @@ const Footer = () => {
                     <p>
                         <a className='fs-4 me-2 text-decoration-none' href="https://www.linkedin.com"> {LinkedInLogo} </a>
                         <a className='fs-4 me-2 text-decoration-none' href="https://www.facebook.com"> {facebookLogo} </a>
-                        <a className='fs-4 me-2 text-decoration-none' href="https://www.twitter.com"> {twitterlogo} </a>
+                        <a className='fs-4 me-2 text-decoration-none' href="https://www.twitter.com"> {twitterLogo} </a>
                     </p>
                 </Col>
                 <Col>
