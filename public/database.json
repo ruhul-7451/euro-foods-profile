@@ -1,19 +1,19 @@
 [
     {
        "id":"001",
-       "svcImage":"https://i.ibb.co/wsz24tC/Food-Processing.jpg",
+       "svcImage":"https://i.ibb.co/VtnZn4P/Catalog-Fish.jpg",
        "svcName":"Food Processing",
        "svcDetails":"In this step our team gather the service item and process the food and turn into a quality edible food."
     },
     {
        "id":"002",
-       "svcImage":"https://i.ibb.co/DRV9QGd/Frozen-Meet.jpg",
+       "svcImage":"https://i.ibb.co/Kbqq03s/Catalog-Meat.jpg",
        "svcName":"Frozen Meats Processing",
        "svcDetails":"In this step our team gather the service item and process the food and turn into a quality edible food."
     },
     {
        "id":"003",
-       "svcImage":"https://i.ibb.co/vYWXxLs/Fruits-Processing.jpg",
+       "svcImage":"https://i.ibb.co/fY63wr8/Catalog-Veg.jpg",
        "svcName":"Fruits and Vegetable Processing",
        "svcDetails":"In this step our team gather the service item and process the food and turn into a quality edible food."
     }

@@ -10,10 +10,10 @@ const Services = () => {
             .then(data => setServices(data))
     }, []);
     return (
-        <Container style={{ backgroundColor: "#EDF2FF" }}>
+        <Container style={{ backgroundColor: "#E5E8E8" }}>
             <Row xs={1} md={2} lg={2} className='p-3 d-flex align-items-center'>
                 <Col className='text-center'>
-                    <img className='img-fluid w-50' src="https://i.ibb.co/pQLHn1b/supply-Chain.png" alt="" />
+                    <img className='img-fluid shadow rounded' src="https://i.ibb.co/FHVkZyT/Cover.jpg" alt="" />
                 </Col>
                 <Col className='text-center'>
                     <h1 className='fs-1'>What We Do.</h1> <hr />
@@ -22,6 +22,7 @@ const Services = () => {
                     </p>
                 </Col>
             </Row>
+            <hr />
             <Row xs={1} md={2} lg={3} className="g-4 p-5">
                 {
                     services.map(service => <Service key={service.id} service={service}></Service>)

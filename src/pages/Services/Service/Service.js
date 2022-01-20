@@ -7,7 +7,7 @@ const Service = ({ service }) => {
         <div>
             <Col>
                 <Card className='shadow border-0 text-center'>
-                    <Card.Img className='w-75 mx-auto' variant="top" src={svcImage} />
+                    <Card.Img className='mx-auto' variant="top" src={svcImage} />
                     <Card.Body>
                         <Card.Title>{svcName}</Card.Title>
                         <Card.Text>

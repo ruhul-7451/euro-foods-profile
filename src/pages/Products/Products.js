@@ -53,13 +53,13 @@ const Products = () => {
                         <img className='img-fluid w-75' src="https://i.ibb.co/F3FVpt9/Frozen-Veges-M4.jpg" alt="frozen vegetables" />
                     </Slider>
                 </Col>
-                <Col>
-                    <h1 className='text-center p-3' style={{ fontSize: "55px", fontFamily: "revert" }}>Our Products.</h1><hr />
-                    <h2 className='text-center fw-light my-5'>Order online from our sites</h2>
+                <Col className='text-center'>
+                    <h1 style={{ fontSize: "55px", fontFamily: "revert" }}>Our Products.</h1> <hr />
+                    <h2 className='text-center fw-light'>Order online from our sites</h2>
                 </Col>
             </Row>
 
-            <Row xs={1} md={2} lg={3} className='text-center bg-warning d-flex align-items-center justify-content-between g-4 p-4 mt-3 rounded'>
+            <Row xs={1} md={2} lg={3} className='text-center bg-warning d-flex align-items-center justify-content-between g-4 p-4 mt-5 rounded'>
                 <Col>
                     <a href="https://www.kukd.com/"><img className='img-fluid' src="https://i.ibb.co/x6bBCvy/kukd-logo.png" alt="" /></a>
                 </Col>
