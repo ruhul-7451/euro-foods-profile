@@ -13,9 +13,9 @@ Click on the `Euro Foods Group - logo` for reload/redirect to homepage.
 
 ## Features
 
-* Extendable and user friendly development which introduce and company to the users.
-* Shows a complete profile of an organization as robust web visualization.
+* Extendable and user-friendly development which introduces the company to the users.
 * Fully responsive for all media types and followed Semantic HTML structure.
+* Shows a complete profile of an organization as robust web visualization.
 
 ## Live Demo
-[Click Here](https://euro-foods-profile.web.app/).
+[Click Here](https://euro-foods-profile.web.app/) to visit the site.
