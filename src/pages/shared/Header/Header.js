@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 const Header = () => {
     return (
@@ -7,7 +7,7 @@ const Header = () => {
             <Navbar collapseOnSelect expand="lg" bg="white" variant="light">
                 <Container>
                     <Navbar.Brand as={Link} to="/">
-                        <img className="w-50" src="https://i.ibb.co/BcKx7wz/Euro-Logo-F3.png" alt="" />
+                        <img style={{ width: "215px" }} src="https://i.ibb.co/BcKx7wz/Euro-Logo-F3.png" alt="" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
