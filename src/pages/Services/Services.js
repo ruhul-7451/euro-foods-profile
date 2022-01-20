@@ -9,7 +9,6 @@ const Services = () => {
             .then(res => res.json())
             .then(data => setServices(data))
     }, []);
-    console.log(services);
     return (
         <Container style={{ backgroundColor: "#EDF2FF" }}>
             <Row xs={1} md={2} lg={2} className='p-3 d-flex align-items-center'>
@@ -17,9 +16,9 @@ const Services = () => {
                     <img className='img-fluid w-50' src="https://i.ibb.co/pQLHn1b/supply-Chain.png" alt="" />
                 </Col>
                 <Col className='text-center'>
-                    <h1 className='fs-1 fw-light'>What We Do.</h1> <hr />
+                    <h1 className='fs-1'>What We Do.</h1> <hr />
                     <p className='p-3 mb-0'>
-                        We were founded in 1991 and have grown to become the UK's largest supplier to the Asian food market, with a passion for high quality seafood, meat, poultry, vegetables and desserts. We manage supplies and stock foods from various places and then process them for delivering around the globe and reach them to the right destination as one is expected to have a great dine to enjoy the food.
+                        We were founded in 1991 and have grown to become the UK's largest supplier to the Asian food market, with a passion for high quality seafood, meat, poultry, vegetables and desserts. <br />We manage supplies and stock foods from various places and then process them for delivering around the globe and reach them to the right destination as one is expected to have a great dine to enjoy the food.
                     </p>
                 </Col>
             </Row>

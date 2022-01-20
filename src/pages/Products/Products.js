@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -39,7 +39,7 @@ const Products = () => {
         ]
     };
     return (
-        <Container className='p-5 bg-info'>
+        <Container className='p-5 shadow'>
             <Row xs={1} md={2} className='d-flex align-items-center justify-content-center'>
                 <Col className='text-center'>
                     <Slider {...settings}>
@@ -54,12 +54,12 @@ const Products = () => {
                     </Slider>
                 </Col>
                 <Col>
-                    <h1 className='text-center text-white fw-light p-3' style={{ fontSize: "55px", fontFamily: "revert" }}>Our Products.</h1>
+                    <h1 className='text-center p-3' style={{ fontSize: "55px", fontFamily: "revert" }}>Our Products.</h1><hr />
+                    <h2 className='text-center fw-light my-5'>Order online from our sites</h2>
                 </Col>
             </Row>
-            <br />
-            <h2 className='text-white text-center fw-lighter'>Our products are available on</h2>
-            <Row xs={1} md={2} lg={3} className='text-center bg-warning d-flex align-items-center justify-content-between'>
+
+            <Row xs={1} md={2} lg={3} className='text-center bg-warning d-flex align-items-center justify-content-between g-4 p-4 mt-3 rounded'>
                 <Col>
                     <a href="https://www.kukd.com/"><img className='img-fluid' src="https://i.ibb.co/x6bBCvy/kukd-logo.png" alt="" /></a>
                 </Col>
