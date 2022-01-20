@@ -1,6 +1,6 @@
 # Euro Foods Group - Profile
 
-This project mainly based on an assignment task. A free hand design with modern web application development.
+This project mainly based on an assignment task. A free hand design with modern web application development.\
 [Live Demo](https://euro-foods-profile.web.app/).
 
 ## Technology Used
