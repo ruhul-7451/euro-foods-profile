@@ -11,22 +11,22 @@ const Brands = () => {
                 <Col>
                     <Row xs={2} md={3} className='g-4 p-4 d-flex justify-content-between align-items-center'>
                         <Col>
-                            <img className='img-fluid' src="https://i.ibb.co/LvNDtPh/EFGlogo.png" alt="" />
+                            <img className='img-fluid' src="https://i.ibb.co/LvNDtPh/EFGlogo.png" alt="euro foods group" />
                         </Col>
                         <Col>
-                            <img className='img-fluid' src="https://i.ibb.co/4YC1QHS/crownfarmslogo.png" alt="" />
+                            <img className='img-fluid' src="https://i.ibb.co/4YC1QHS/crownfarmslogo.png" alt="crown farms" />
                         </Col>
                         <Col>
-                            <img className='img-fluid' src="https://i.ibb.co/9c20fbB/mbbd.png" alt="" />
+                            <img className='img-fluid' src="https://i.ibb.co/9c20fbB/mbbd.png" alt="masala bazaar bd" />
                         </Col>
                         <Col>
-                            <img className='img-fluid' src="https://i.ibb.co/x6bBCvy/kukd-logo.png" alt="" />
+                            <img className='img-fluid' src="https://i.ibb.co/x6bBCvy/kukd-logo.png" alt="kukd website" />
                         </Col>
                         <Col>
-                            <img className='img-fluid' src="https://i.ibb.co/Cs1QGTs/crown-Logo.png" alt="" />
+                            <img className='img-fluid' src="https://i.ibb.co/Cs1QGTs/crown-Logo.png" alt="crown farm brand" />
                         </Col>
                         <Col>
-                            <img className='img-fluid' src="https://i.ibb.co/p14n5SH/al-rohim.png" alt="" />
+                            <img className='img-fluid' src="https://i.ibb.co/p14n5SH/al-rohim.png" alt="al rohim brand" />
                         </Col>
 
                     </Row>

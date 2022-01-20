@@ -15,13 +15,7 @@ const Header = () => {
                             <Nav.Link as={Link} to="services">What We do</Nav.Link>
                             <Nav.Link as={Link} to="products">Our Products</Nav.Link>
                             <Nav.Link as={Link} to="details">Why Us?</Nav.Link>
-                            <NavDropdown title="About Us" id="collasible-nav-dropdown">
-                                <NavDropdown.Item as={Link} to="supply">Supply Us</NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to="contact">Contact Us</NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to="careers">Careers</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item as={Link} to="contact">Get in Touch</NavDropdown.Item>
-                            </NavDropdown>
+                            <Nav.Link as={Link} to="contact">Contact Us</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

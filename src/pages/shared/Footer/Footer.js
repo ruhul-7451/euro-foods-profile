@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faLinkedinIn, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
-
+import { HashLink } from 'react-router-hash-link';
 
 const facebookLogo = <FontAwesomeIcon icon={faFacebookSquare} />
 const LinkedInLogo = <FontAwesomeIcon icon={faLinkedinIn} />
@@ -27,10 +27,10 @@ const Footer = () => {
                 </Col>
                 <Col>
                     <h6 className="mb-2 fs-5">About Us</h6>
-                    <p className="fw-light">Supply Us</p>
-                    <p className="fw-light">Contact Us</p>
-                    <p className="fw-light">Careers</p>
-                    <p className="fw-light">Terms and Conditions</p>
+                    <p><HashLink className='text-decoration-none text-dark fw-light' to="/contact#top">Contact Us</HashLink></p>
+                    <p><HashLink className='text-decoration-none text-dark fw-light' to="/contact#top">Supply Us</HashLink></p>
+                    <p><HashLink className='text-decoration-none text-dark fw-light' to="/contact#top">Careers</HashLink></p>
+                    <p><HashLink className='text-decoration-none text-dark fw-light' to="/contact#top">Terms and Conditions</HashLink></p>
                 </Col>
                 <Col>
                     <h6 className="mb-2 fs-5">Euro Foods Group</h6>

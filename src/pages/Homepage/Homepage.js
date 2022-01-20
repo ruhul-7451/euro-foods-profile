@@ -20,7 +20,6 @@ const Homepage = () => {
             <Products></Products>
             <br />
             <ContactUs></ContactUs>
-            <br />
         </div>
     );
 };

@@ -9,7 +9,7 @@ const Motive = () => {
                     <h1 className='text-center fw-light' style={{ fontSize: "55px", fontFamily: "revert" }}>Wholesale. Quality. Reliability.</h1>
                 </Col>
                 <Col>
-                    <p className='fs-5 fw-light text-center p-5'> Frozen food processing and delivering around the globe ensuring high quality so you can dine or takeaway. <br /> <Button className='mt-3' variant='outline-dark'>Learn More</Button> </p>
+                    <p className='fs-5 fw-light text-center p-5'> Frozen food processing and delivering around the globe ensuring high quality so you can dine or takeaway. <br /> <Button className='mt-3' variant='outline-dark' onClick={() => window.open("https://en.wikipedia.org/wiki/Euro_Foods_(UK)", "_blank")}>Learn More</Button> </p>
                 </Col>
             </Row>
         </Container>

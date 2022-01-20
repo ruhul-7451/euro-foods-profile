@@ -39,7 +39,7 @@ const Products = () => {
         ]
     };
     return (
-        <Container className='p-5 shadow'>
+        <Container className='p-5' style={{ backgroundColor: "#FFF6ED" }}>
             <Row xs={1} md={2} className='d-flex align-items-center justify-content-center'>
                 <Col className='text-center'>
                     <Slider {...settings}>
