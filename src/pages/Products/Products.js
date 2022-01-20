@@ -54,7 +54,7 @@ const Products = () => {
                     </Slider>
                 </Col>
                 <Col className='text-center'>
-                    <h1 style={{ fontSize: "55px", fontFamily: "revert" }}>Our Products.</h1> <hr />
+                    <h1 className='fs-1 mt-4'>Our Products</h1> <hr />
                     <h2 className='text-center fw-light'>Order online from our sites</h2>
                 </Col>
             </Row>
